@@ -1,0 +1,24 @@
+/**
+  @mainpage Latin Square
+  @author Andreas Evagorou
+  @file README.dox
+  @brief Latin Square Puzzle Game
+  
+  ## Overview
+  
+  A console-based Latin Square puzzle game. Players load a square from a file, insert numbers while following the rules, and solve the puzzle.
+  
+  ## Features
+  
+  - Reads a Latin Square from a file.
+  - Validates moves (no duplicate numbers in rows/columns).
+  - Displays the puzzle in a formatted grid.
+  - Saves progress to a new file when exiting.
+  
+  ## Usage
+  
+  - Compile the program.
+  - Run with the input file: `./latinsquare inputfile.txt`
+  - Enter values in the format `i,j=val` to play.
+  - Save and exit with `0,0=0`.
+ **/
